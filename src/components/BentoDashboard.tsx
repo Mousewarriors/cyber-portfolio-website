@@ -45,7 +45,7 @@ const labs = [
         href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/Apply%20filters%20to%20SQL%20queries%20-%20Portfolio.pdf"
     },
     {
-        title: "Network Incident Analyses",
+        title: "Network Incident Analysis",
         status: "Completed",
         category: "Detection",
         icon: Activity,
