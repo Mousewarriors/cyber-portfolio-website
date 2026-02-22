@@ -55,7 +55,7 @@ export default function ProjectVault() {
                         className="group relative"
                     >
                         <div className="absolute inset-0 bg-cyber/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl" />
-                        <div className="relative p-8 rounded-xl border border-white/5 hover:border-cyber/30 transition-all flex flex-col md:flex-row gap-8 items-start">
+                        <div className="relative p-6 sm:p-8 rounded-xl border border-white/5 hover:border-cyber/30 transition-all flex flex-col md:flex-row gap-6 md:gap-8 items-start">
                             <div className="hidden md:flex flex-col items-center">
                                 <div className="w-12 h-12 rounded bg-white/5 border border-white/10 flex items-center justify-center text-cyber group-hover:text-matrix group-hover:scale-110 transition-all">
                                     <FileText className="w-6 h-6" />

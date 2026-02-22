@@ -56,11 +56,11 @@ export default function TerminalHero() {
                     <div className="inline-block px-3 py-1 rounded-full border border-matrix/30 bg-matrix/5 text-matrix text-xs font-mono mb-4">
                         STATUS: ACTIVE_PORTFOLIO
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4">
-                        DIGITAL CYBERSECURITY <br />
+                    <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-4 leading-tight">
+                        DIGITAL CYBERSECURITY <br className="hidden sm:block" />
                         <span className="text-cyber">CENTER</span>
                     </h1>
-                    <p className="text-gray-400 max-w-xl text-lg md:text-xl font-light">
+                    <p className="text-gray-400 max-w-xl text-base md:text-xl font-light">
                         Welcome to the secure intelligence hub. Monitoring learning vectors and research conducted by Simon Wood.
                     </p>
                 </motion.div>

@@ -16,7 +16,7 @@ const labs = [
         status: "In Progress",
         category: "Monitoring",
         icon: Search,
-        size: "col-span-2 row-span-2",
+        size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/SEIM-Project/",
         image: "/dashboard.jpg"
     },
@@ -41,7 +41,7 @@ const labs = [
         status: "Completed",
         category: "Database Security",
         icon: Terminal,
-        size: "col-span-1 row-span-2",
+        size: "md:col-span-1 md:row-span-2",
         href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/Apply%20filters%20to%20SQL%20queries%20-%20Portfolio.pdf"
     },
     {
@@ -79,7 +79,7 @@ export default function BentoDashboard() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 grid-rows-3 gap-4 auto-rows-[140px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[160px] md:auto-rows-[140px]">
                 {labs.map((lab, i) => (
                     <motion.a
                         key={i}

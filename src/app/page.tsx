@@ -20,14 +20,14 @@ export default function Home() {
       <ProjectVault />
 
       {/* About / "Dossier" Teaser */}
-      <section className="py-24 px-6 relative z-10 max-w-4xl mx-auto text-center">
-        <div className="glass-card p-12 rounded-2xl border border-cyber/20 relative overflow-hidden">
+      <section className="py-16 md:py-24 px-6 relative z-10 max-w-4xl mx-auto text-center">
+        <div className="glass-card p-8 md:p-12 rounded-2xl border border-cyber/20 relative overflow-hidden">
           <div className="absolute top-0 right-0 p-4 border-l border-b border-cyber/10 text-[9px] font-mono opacity-50">
             NODE_7.2 / DOSSIER_ACCESS
           </div>
 
-          <h2 className="text-4xl font-bold mb-6">OPERATIVE <span className="text-matrix">SIMON WOOD</span></h2>
-          <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 uppercase tracking-tight">OPERATIVE <span className="text-matrix">SIMON WOOD</span></h2>
+          <p className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             Specialist in Security Operations and Tactical Intelligence Gathering. Currently expanding the digital perimeter through rigorous lab experimentation and vulnerability research.
           </p>
 
