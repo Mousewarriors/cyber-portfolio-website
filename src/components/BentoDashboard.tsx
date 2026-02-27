@@ -12,45 +12,63 @@ const stats = [
 
 const labs = [
     {
-        title: "Aegis-Forge",
-        status: "Completed",
+        title: "Aegis Forge",
+        status: "Live",
         category: "Red Teaming",
         icon: Shield,
         size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/Aegis-Forge",
-        image: "/dashboard.jpg"
+        image: "/aegis-forge.jpg"
     },
     {
         title: "SentinelPR",
-        status: "Completed",
-        category: "AppSec",
+        status: "Production",
+        category: "AppSec Gate",
         icon: Lock,
+        size: "md:col-span-2 md:row-span-1",
+        href: "https://github.com/Mousewarriors/SentinelPR",
+        image: "/workflow.png"
+    },
+    {
+        title: "Network Incident Analysis",
+        status: "Active",
+        category: "Monitoring",
+        icon: Activity,
         size: "col-span-1 row-span-1",
-        href: "https://github.com/Mousewarriors/SentinelPR"
+        href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/tree/main/DoS%20attack%20Portfolio"
     },
     {
         title: "Linux Vulnerability",
-        status: "Completed",
-        category: "OS Hardening",
-        icon: Cpu,
+        status: "Encrypted",
+        category: "Compliance",
+        icon: Database,
         size: "col-span-1 row-span-1",
         href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/File%20permissions%20in%20Linux%20-%20Portfolio.pdf"
     },
     {
-        title: "SQL Investigation",
+        title: "SEIM Engineering",
         status: "Completed",
-        category: "Database Security",
+        category: "SOC Analysis",
         icon: Terminal,
-        size: "md:col-span-1 md:row-span-2",
-        href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/Apply%20filters%20to%20SQL%20queries%20-%20Portfolio.pdf"
+        size: "md:col-span-2 md:row-span-2",
+        href: "https://github.com/Mousewarriors/SEIM-Project",
+        image: "/dashboard.jpg"
     },
     {
-        title: "Network Incident Analysis",
-        status: "Completed",
+        title: "SQL Investigation",
+        status: "Ready",
         category: "Detection",
-        icon: Activity,
+        icon: Search,
         size: "col-span-1 row-span-1",
-        href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/tree/main/DoS%20attack%20Portfolio"
+        href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/SOC127%20-%20SQL%20Injection%20Detected/SOC127%20-%20SQL%20Injection%20Detected%20summary.txt"
+    },
+    {
+        title: "SharePoint RCE",
+        status: "Stable",
+        category: "Engine",
+        icon: Cpu,
+        size: "col-span-1 row-span-1",
+        href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/SOC342%20-%20CVE%E2%80%912025%E2%80%9153770%20SharePoint%20ToolShell%20Auth%20Bypass%20and%20RCE/Incident%20summary.pdf"
     },
 ];
 

@@ -10,7 +10,7 @@ const reports = [
         description: "An automated Red Teaming harness for AI agents with isolated sandboxing and real-time policy enforcement.",
         tags: ["Red Teaming", "AI Safety", "Sandboxing"],
         date: "2026-02-27",
-        debrief: "https://github.com/Mousewarriors/Aegis-Forge",
+        debrief: "https://github.com/Mousewarriors/Aegis-Forge/blob/main/README.md",
         source: "https://github.com/Mousewarriors/Aegis-Forge"
     },
     {
@@ -19,8 +19,35 @@ const reports = [
         description: "Automated, high-precision security gate for GitHub Pull Requests. Orchestrates deterministic static analysis with AI-powered semantic audits.",
         tags: ["GitHub Actions", "AppSec", "AI Audit"],
         date: "2026-02-27",
-        debrief: "https://github.com/Mousewarriors/SentinelPR",
+        debrief: "https://github.com/Mousewarriors/SentinelPR/blob/main/README.md",
         source: "https://github.com/Mousewarriors/SentinelPR"
+    },
+    {
+        id: "PROJECT-003",
+        title: "SEIM Engineering",
+        description: "Full-stack Security Information and Event Management implementation with real-time alerting and incident responde workflows.",
+        tags: ["SIEM", "SOC", "Blue Team"],
+        date: "2026-02-20",
+        debrief: "https://github.com/Mousewarriors/SEIM-Project/blob/main/README.md",
+        source: "https://github.com/Mousewarriors/SEIM-Project"
+    },
+    {
+        id: "RESEARCH-001",
+        title: "Linux Vulnerability Assessment",
+        description: "Comprehensive audit of file permissions and system hardening techniques for Linux environments.",
+        tags: ["OS Hardening", "Linux", "Permissions"],
+        date: "2026-02-18",
+        debrief: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/File%20permissions%20in%20Linux%20-%20Portfolio.pdf",
+        source: "https://github.com/Mousewarriors/Cybersecurity-Portfolio"
+    },
+    {
+        id: "RESEARCH-002",
+        title: "Network Incident Analysis",
+        description: "Deep dive into DoS attack vectors and defensive strategies for enterprise networks.",
+        tags: ["DoS", "Network Security", "Detection"],
+        date: "2026-02-16",
+        debrief: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/tree/main/DoS%20attack%20Portfolio",
+        source: "https://github.com/Mousewarriors/Cybersecurity-Portfolio"
     },
     {
         id: "REPORT-001",
