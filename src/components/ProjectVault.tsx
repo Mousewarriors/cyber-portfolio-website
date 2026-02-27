@@ -5,6 +5,24 @@ import { FileText, ExternalLink, ChevronRight, HardDrive } from "lucide-react";
 
 const reports = [
     {
+        id: "PROJECT-001",
+        title: "Aegis-Forge",
+        description: "An automated Red Teaming harness for AI agents with isolated sandboxing and real-time policy enforcement.",
+        tags: ["Red Teaming", "AI Safety", "Sandboxing"],
+        date: "2026-02-27",
+        debrief: "https://github.com/Mousewarriors/Aegis-Forge",
+        source: "https://github.com/Mousewarriors/Aegis-Forge"
+    },
+    {
+        id: "PROJECT-002",
+        title: "SentinelPR",
+        description: "Automated, high-precision security gate for GitHub Pull Requests. Orchestrates deterministic static analysis with AI-powered semantic audits.",
+        tags: ["GitHub Actions", "AppSec", "AI Audit"],
+        date: "2026-02-27",
+        debrief: "https://github.com/Mousewarriors/SentinelPR",
+        source: "https://github.com/Mousewarriors/SentinelPR"
+    },
+    {
         id: "REPORT-001",
         title: "SQL Injection Detection and Mitigation",
         description: "Deep dive into SOC127 alert. Analyzing malicious payloads and implementing defensive filtering.",

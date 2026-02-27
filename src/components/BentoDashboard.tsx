@@ -12,21 +12,21 @@ const stats = [
 
 const labs = [
     {
-        title: "SEIM Engineering",
-        status: "In Progress",
-        category: "Monitoring",
-        icon: Search,
+        title: "Aegis-Forge",
+        status: "Completed",
+        category: "Red Teaming",
+        icon: Shield,
         size: "md:col-span-2 md:row-span-2",
-        href: "https://github.com/Mousewarriors/SEIM-Project/",
+        href: "https://github.com/Mousewarriors/Aegis-Forge",
         image: "/dashboard.jpg"
     },
     {
-        title: "Mitre RAG Strategy",
+        title: "SentinelPR",
         status: "Completed",
-        category: "Intelligence",
-        icon: Database,
+        category: "AppSec",
+        icon: Lock,
         size: "col-span-1 row-span-1",
-        href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/tree/main/Mitre%20RAG%20Project"
+        href: "https://github.com/Mousewarriors/SentinelPR"
     },
     {
         title: "Linux Vulnerability",
