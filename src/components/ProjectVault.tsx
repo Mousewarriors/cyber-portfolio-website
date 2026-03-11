@@ -24,7 +24,7 @@ const reports = [
     },
     {
         id: "PROJECT-003",
-        title: "SEIM Engineering",
+        title: "SIEM Engineering",
         description: "Full-stack Security Information and Event Management implementation with real-time alerting and incident responde workflows.",
         tags: ["SIEM", "SOC", "Blue Team"],
         date: "2026-02-20",

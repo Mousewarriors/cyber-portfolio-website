@@ -30,6 +30,15 @@ const labs = [
         image: "/workflow.png"
     },
     {
+        title: "SIEM Engineering",
+        status: "Completed",
+        category: "SOC Analysis",
+        icon: Terminal,
+        size: "md:col-span-2 md:row-span-2",
+        href: "https://github.com/Mousewarriors/SEIM-Project",
+        image: "/dashboard.jpg"
+    },
+    {
         title: "Network Incident Analysis",
         status: "Active",
         category: "Monitoring",
@@ -44,15 +53,6 @@ const labs = [
         icon: Database,
         size: "col-span-1 row-span-1",
         href: "https://github.com/Mousewarriors/Cybersecurity-Portfolio/blob/main/File%20permissions%20in%20Linux%20-%20Portfolio.pdf"
-    },
-    {
-        title: "SEIM Engineering",
-        status: "Completed",
-        category: "SOC Analysis",
-        icon: Terminal,
-        size: "md:col-span-2 md:row-span-2",
-        href: "https://github.com/Mousewarriors/SEIM-Project",
-        image: "/dashboard.jpg"
     },
     {
         title: "SQL Investigation",
@@ -109,11 +109,11 @@ export default function BentoDashboard() {
                         transition={{ delay: i * 0.1 }}
                         viewport={{ once: true }}
                         whileHover={{ y: -5, borderColor: "rgba(0, 243, 255, 0.4)" }}
-                        className={`glass-card p-6 rounded-lg ${lab.size} relative overflow-hidden group cursor-pointer border border-cyber/5 transition-all duration-300`}
+                        className={`glass-card p-6 rounded-lg ${lab.size} relative overflow-hidden group cursor-pointer border border-cyber/5 transition-all duration-300 hover:bg-transparent`}
                     >
                         {lab.image && (
                             <div
-                                className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity bg-cover bg-center"
+                                className="absolute inset-0 opacity-40 group-hover:opacity-100 transition-opacity bg-cover bg-center"
                                 style={{ backgroundImage: `url(${lab.image})` }}
                             />
                         )}
