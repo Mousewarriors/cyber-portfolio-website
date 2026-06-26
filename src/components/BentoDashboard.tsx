@@ -139,16 +139,25 @@ export default function BentoDashboard() {
                         className={`glass-card p-6 rounded-lg ${lab.size} relative overflow-hidden group cursor-pointer border border-cyber/5 transition-all duration-300 hover:bg-transparent`}
                     >
                         {lab.image && (
-                            <div
-                                className="absolute inset-0 opacity-40 group-hover:opacity-100 transition-opacity bg-cover bg-center"
-                                style={{ backgroundImage: `url(${lab.image})` }}
-                            />
+                            <div className="absolute right-4 bottom-0 w-[50%] h-[75%] md:h-[80%] rounded-t-lg border-t border-l border-r border-white/10 bg-black/40 overflow-hidden shadow-2xl transition-all duration-500 group-hover:h-[82%] group-hover:w-[53%] group-hover:right-2 z-0 pointer-events-none">
+                                {/* Browser control header dots */}
+                                <div className="h-4 bg-white/5 border-b border-white/5 px-2 flex items-center gap-1 shrink-0">
+                                    <div className="w-1 h-1 rounded-full bg-red-500/50" />
+                                    <div className="w-1 h-1 rounded-full bg-yellow-500/50" />
+                                    <div className="w-1 h-1 rounded-full bg-green-500/50" />
+                                </div>
+                                <img
+                                    src={lab.image}
+                                    alt={lab.title}
+                                    className="w-full h-full object-cover object-top opacity-50 group-hover:opacity-100 transition-opacity duration-500"
+                                />
+                            </div>
                         )}
 
                         {/* Hover Scan Line */}
                         <div className="absolute top-0 left-0 w-full h-[2px] bg-cyber/40 -translate-y-full group-hover:translate-y-[400px] transition-transform duration-[2s] ease-in-out pointer-events-none" />
 
-                        <div className="flex flex-col h-full justify-between relative z-10">
+                        <div className={`flex flex-col h-full justify-between relative z-10 ${lab.image ? 'max-w-[45%] sm:max-w-[50%]' : ''}`}>
                             <div className="flex justify-between items-start">
                                 <div className={`p-2 rounded bg-white/5 border border-white/10 group-hover:border-cyber/30 group-hover:bg-cyber/5 transition-colors`}>
                                     <lab.icon className="w-5 h-5 text-cyber group-hover:text-matrix transition-colors" />
