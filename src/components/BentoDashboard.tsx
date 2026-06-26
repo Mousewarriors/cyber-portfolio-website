@@ -1,10 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Lock, Terminal, Activity, Zap, Cpu, Search, Database } from "lucide-react";
+import { Shield, Lock, Terminal, Activity, Zap, Cpu, Search, Database, Eye } from "lucide-react";
 
 const stats = [
-    { label: "Completed Hubs", value: "12", icon: Shield, color: "text-matrix" },
+    { label: "Completed Hubs", value: "13", icon: Shield, color: "text-matrix" },
     { label: "Active Research", value: "03", icon: Activity, color: "text-cyber" },
     { label: "Secure Vaults", value: "08", icon: Lock, color: "text-yellow-400" },
     { label: "Neural Entropy", value: "1.2ms", icon: Zap, color: "text-red-400" },
@@ -19,6 +19,15 @@ const labs = [
         size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/Aegis-Forge",
         image: "/aegis-forge.jpg"
+    },
+    {
+        title: "Reolink Watcher",
+        status: "Production",
+        category: "Local AI Monitoring",
+        icon: Eye,
+        size: "md:col-span-2 md:row-span-1",
+        href: "https://github.com/Mousewarriors/Reolink-Watcher",
+        image: "/reolink-watcher.png"
     },
     {
         title: "SentinelPR",

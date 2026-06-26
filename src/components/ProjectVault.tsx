@@ -5,6 +5,15 @@ import { FileText, ExternalLink, ChevronRight, HardDrive } from "lucide-react";
 
 const reports = [
     {
+        id: "PROJECT-004",
+        title: "Reolink Watcher",
+        description: "Local visual monitoring aid for Reolink security cameras. Orchestrates real-time screen capture with custom YOLO11n object detection and PySide6 UI alerts to flag human presence locally.",
+        tags: ["Local AI", "YOLO11", "Computer Vision"],
+        date: "2026-06-27",
+        debrief: "https://github.com/Mousewarriors/Reolink-Watcher/blob/main/README.md",
+        source: "https://github.com/Mousewarriors/Reolink-Watcher"
+    },
+    {
         id: "PROJECT-001",
         title: "Aegis-Forge",
         description: "An automated Red Teaming harness for AI agents with isolated sandboxing and real-time policy enforcement.",
