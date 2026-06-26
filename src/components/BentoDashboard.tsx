@@ -16,7 +16,7 @@ const labs = [
         status: "Production",
         category: "AI Research Tool",
         icon: Book,
-        size: "md:col-span-2 md:row-span-1",
+        size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/JW-Research-Tool",
         image: "/jw-research-tool.png"
     },
@@ -25,7 +25,7 @@ const labs = [
         status: "Production",
         category: "AI Code Generation",
         icon: Sparkles,
-        size: "md:col-span-2 md:row-span-1",
+        size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/ForgeAI",
         image: "/forge-ai.png"
     },
@@ -43,7 +43,7 @@ const labs = [
         status: "Production",
         category: "Local AI Monitoring",
         icon: Eye,
-        size: "md:col-span-2 md:row-span-1",
+        size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/Reolink-Watcher",
         image: "/reolink-watcher.png"
     },
@@ -52,7 +52,7 @@ const labs = [
         status: "Production",
         category: "AppSec Gate",
         icon: Lock,
-        size: "md:col-span-2 md:row-span-1",
+        size: "md:col-span-2 md:row-span-2",
         href: "https://github.com/Mousewarriors/SentinelPR",
         image: "/workflow.png"
     },
@@ -139,7 +139,7 @@ export default function BentoDashboard() {
                         className={`glass-card p-6 rounded-lg ${lab.size} relative overflow-hidden group cursor-pointer border border-cyber/5 transition-all duration-300 hover:bg-transparent`}
                     >
                         {lab.image && (
-                            <div className="absolute right-4 bottom-0 w-[50%] h-[75%] md:h-[80%] rounded-t-lg border-t border-l border-r border-white/10 bg-black/40 overflow-hidden shadow-2xl transition-all duration-500 group-hover:h-[82%] group-hover:w-[53%] group-hover:right-2 z-0 pointer-events-none">
+                            <div className="absolute right-4 bottom-0 w-[55%] h-[82%] md:h-[85%] rounded-t-lg border-t border-l border-r border-white/10 bg-black/40 overflow-hidden shadow-2xl transition-all duration-500 group-hover:h-[88%] group-hover:w-[58%] group-hover:right-2 z-0 pointer-events-none">
                                 {/* Browser control header dots */}
                                 <div className="h-4 bg-white/5 border-b border-white/5 px-2 flex items-center gap-1 shrink-0">
                                     <div className="w-1 h-1 rounded-full bg-red-500/50" />
@@ -157,7 +157,7 @@ export default function BentoDashboard() {
                         {/* Hover Scan Line */}
                         <div className="absolute top-0 left-0 w-full h-[2px] bg-cyber/40 -translate-y-full group-hover:translate-y-[400px] transition-transform duration-[2s] ease-in-out pointer-events-none" />
 
-                        <div className={`flex flex-col h-full justify-between relative z-10 ${lab.image ? 'max-w-[45%] sm:max-w-[50%]' : ''}`}>
+                        <div className={`flex flex-col h-full justify-between relative z-10 ${lab.image ? 'max-w-[38%] sm:max-w-[40%]' : ''}`}>
                             <div className="flex justify-between items-start">
                                 <div className={`p-2 rounded bg-white/5 border border-white/10 group-hover:border-cyber/30 group-hover:bg-cyber/5 transition-colors`}>
                                     <lab.icon className="w-5 h-5 text-cyber group-hover:text-matrix transition-colors" />
