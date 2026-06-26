@@ -5,6 +5,15 @@ import { FileText, ExternalLink, ChevronRight, HardDrive } from "lucide-react";
 
 const reports = [
     {
+        id: "PROJECT-006",
+        title: "Spiritual Research Assistant",
+        description: "Private, local-first semantic search and research workspace. Combines deterministic full-text search and scripture citation indexing with source-grounded LLM synthesis to explore library materials.",
+        tags: ["Semantic Search", "LLM Orchestration", "Local Library"],
+        date: "2026-06-27",
+        debrief: "https://github.com/Mousewarriors/JW-Research-Tool/blob/main/README.md",
+        source: "https://github.com/Mousewarriors/JW-Research-Tool"
+    },
+    {
         id: "PROJECT-005",
         title: "ForgeAI",
         description: "Local-first AI app builder that turns plain-English ideas into working Vite, React, TypeScript, and Tailwind applications. Generates structural build plans, showcases live previews, and enables chat-based refactoring.",

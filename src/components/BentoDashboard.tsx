@@ -1,16 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Lock, Terminal, Activity, Zap, Cpu, Search, Database, Eye, Sparkles } from "lucide-react";
+import { Shield, Lock, Terminal, Activity, Zap, Cpu, Search, Database, Eye, Sparkles, Book } from "lucide-react";
 
 const stats = [
-    { label: "Completed Hubs", value: "14", icon: Shield, color: "text-matrix" },
+    { label: "Completed Hubs", value: "15", icon: Shield, color: "text-matrix" },
     { label: "Active Research", value: "03", icon: Activity, color: "text-cyber" },
     { label: "Secure Vaults", value: "08", icon: Lock, color: "text-yellow-400" },
     { label: "Neural Entropy", value: "1.2ms", icon: Zap, color: "text-red-400" },
 ];
 
 const labs = [
+    {
+        title: "Spiritual Research Assistant",
+        status: "Production",
+        category: "AI Research Tool",
+        icon: Book,
+        size: "md:col-span-2 md:row-span-1",
+        href: "https://github.com/Mousewarriors/JW-Research-Tool",
+        image: "/jw-research-tool.png"
+    },
     {
         title: "ForgeAI",
         status: "Production",
