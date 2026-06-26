@@ -5,6 +5,15 @@ import { FileText, ExternalLink, ChevronRight, HardDrive } from "lucide-react";
 
 const reports = [
     {
+        id: "PROJECT-005",
+        title: "ForgeAI",
+        description: "Local-first AI app builder that turns plain-English ideas into working Vite, React, TypeScript, and Tailwind applications. Generates structural build plans, showcases live previews, and enables chat-based refactoring.",
+        tags: ["Local AI", "React Codegen", "Next.js"],
+        date: "2026-06-27",
+        debrief: "https://github.com/Mousewarriors/ForgeAI/blob/main/README.md",
+        source: "https://github.com/Mousewarriors/ForgeAI"
+    },
+    {
         id: "PROJECT-004",
         title: "Reolink Watcher",
         description: "Local visual monitoring aid for Reolink security cameras. Orchestrates real-time screen capture with custom YOLO11n object detection and PySide6 UI alerts to flag human presence locally.",
