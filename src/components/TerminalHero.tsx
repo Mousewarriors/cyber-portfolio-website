@@ -4,15 +4,15 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const roles = [
-    "SIEM Engineering ...",
-    "SOC Operations...",
-    "Detection Engineering...",
-    "Threat Analysis...",
-    "Log Analysis...",
-    "AI Integration...",
-    "Incident Investigations...",
-    "Endpoint Forensics...",
-    "Threat Intelligence...",
+    "Local AI Integration...",
+    "SIEM & SOC Engineering...",
+    "Full-Stack Development...",
+    "Computer Vision & YOLO...",
+    "LLM Orchestration...",
+    "SecOps Automation...",
+    "DevOps Pipelines...",
+    "Threat & Log Analysis...",
+    "Desktop GUI Client Dev...",
 ];
 
 export default function TerminalHero() {
@@ -48,20 +48,20 @@ export default function TerminalHero() {
         <section className="relative h-screen flex flex-col items-center justify-center p-6 pb-24">
             <div className="z-10 w-full max-w-4xl">
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="mb-8"
+                     initial={{ opacity: 0, y: 20 }}
+                     animate={{ opacity: 1, y: 0 }}
+                     transition={{ duration: 0.8 }}
+                     className="mb-8"
                 >
                     <div className="inline-block px-3 py-1 rounded-full border border-matrix/30 bg-matrix/5 text-matrix text-xs font-mono mb-4">
                         STATUS: ACTIVE_PORTFOLIO
                     </div>
                     <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-4 leading-tight">
-                        DIGITAL CYBERSECURITY <br className="hidden sm:block" />
-                        <span className="text-cyber">CENTER</span>
+                        INTELLIGENT SYSTEMS & <br className="hidden sm:block" />
+                        <span className="text-cyber">SECURITY OPERATIONS</span>
                     </h1>
                     <p className="text-gray-400 max-w-xl text-base md:text-xl font-light">
-                        Welcome to the secure intelligence hub. Monitoring learning vectors and research conducted by Simon Wood.
+                        Welcome to the secure operations hub. Showcasing AI system architecture, SecOps tools, and engineering labs developed by Simon Wood.
                     </p>
                 </motion.div>
 

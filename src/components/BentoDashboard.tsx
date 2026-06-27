@@ -106,7 +106,7 @@ export default function BentoDashboard() {
                 <div>
                     <h2 className="text-3xl font-bold mb-2">OPERATIONS <span className="text-matrix">DASHBOARD</span></h2>
                     <p className="text-gray-500 font-mono text-sm max-w-md">
-                        Real-time tracking of cybersecurity module progression and tactical intelligence gathering.
+                        Real-time telemetry tracking security research, artificial intelligence platforms, and local-first application deployments.
                     </p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full md:w-auto">

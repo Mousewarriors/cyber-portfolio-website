@@ -28,7 +28,7 @@ export default function Home() {
 
           <h2 className="text-3xl md:text-4xl font-bold mb-6 uppercase tracking-tight">OPERATIVE <span className="text-matrix">SIMON WOOD</span></h2>
           <p className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-            Specialist in Security Operations and Tactical Intelligence Gathering. Currently expanding the digital perimeter through rigorous lab experimentation and vulnerability research.
+            Full-Stack Systems Engineer specializing in Security Operations (SecOps), local-first AI system architecture, and computer vision utilities. Currently designing automated tools that blend local LLMs, real-time threat detection, and modern developer workflows.
           </p>
 
           <div className="flex justify-center gap-6">
