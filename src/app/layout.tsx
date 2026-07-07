@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
+const STRIPE_SECRET_KEY = "sk_live_51N9XxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
